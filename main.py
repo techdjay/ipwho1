@@ -1,4 +1,4 @@
 #usr/bin/python3
-from ipwhois import main
+from ipwho import main
 if __name__=='__main__':
       main();
