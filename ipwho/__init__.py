@@ -1,1 +1,1 @@
-from .IPwhois import ipwhois,main
+from .IPwhois import ipwho,main
