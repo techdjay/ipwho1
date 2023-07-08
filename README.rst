@@ -17,11 +17,17 @@ Original author installation URL
 --------------------------
 ``URL`` `https://pypi.org/project/kamabay-ipwhois/`_
 
-**using command line type** ``ipwhois``
+**using command line type** ``ipwhois <ip>`` see below the example
 
+- Please Note: Updated to show only the below instructions as most people want this output regularly:
+----------------------------------------
+# ipwhois 8.8.8.8
+IP: 8.8.8.8
+Organization: Google LLC
+ISP: Google LLC
+----------------------------------------
 
 **using import package** ``from ipwhois import ipwhois``
-
 .. code :: python
 
         >>> from ipwhois import ipwhois
