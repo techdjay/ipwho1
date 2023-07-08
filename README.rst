@@ -13,11 +13,10 @@
         $ cd ipwhois && pip3 install requests
         $ clear && python3 main.py
         
-Original author installation URL
---------------------------
-``URL`` `https://pypi.org/project/kamabay-ipwhois/`_
 
-**using command line type** ``ipwhois <ip>`` see below the example
+``URL`` `https://github.com/techdjay/ipwho`_
+
+**using command line type** ``ipwho <ip>`` see below the example
 
 - Please Note: Updated to show only the below instructions as most people want this output regularly:
 ----------------------------------------
@@ -27,12 +26,12 @@ Organization: Google LLC
 ISP: Google LLC
 ----------------------------------------
 
-**using import package** ``from ipwhois import ipwhois``
+**using import package** ``from ipwho import ipwho``
 .. code :: python
 
-        >>> from ipwhois import ipwhois
+        >>> from ipwho import ipwho
         >>>
-        >>> ipwhois('0') # zero string default local IP
+        >>> ipwho('0') # zero string default local IP
         {
         "asn":"AS4818",
         "city": "Batu Pahat",
