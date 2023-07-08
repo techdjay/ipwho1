@@ -6,12 +6,12 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 
 setup(
     name='ipwho',
-    version='0.1.0',
+    version='0.1.1',
     packages = find_packages(),
     include_package_data=True,
     description='ip information gathering.',
     long_description = README,
-    author='Exso Kamabay',
+    author='Exso Kamabay updated by Jay',
     url='https://github.com/techdjay/ipwho',
     license='Apache License 2.0',
     install_requires=['requests'],
