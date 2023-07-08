@@ -24,7 +24,7 @@ setup(
     ],
     entry_points={
         "console_scripts":[
-            "ipwhois = ipwhois.IPwhois:main"
+            "ipwho = ipwho.IPwhois:main"
         ]
     }
 )
